@@ -7,6 +7,5 @@ I made the sounds myself in Reaper using ReaSynth and Helm by Matt Tytel.
 
 My aim was to have the sounds loop when pressing a key down, but in a browser there's a brief delay between when the sound file stops and starts again.
 
-I also need to connect the keyboard keys to the keys on screen.
 
-I will attempt to fix these issues without referencing the video!
+Update on April 9: made the corresponding keys light up on screen when playing the synth with the keyboard.
