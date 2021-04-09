@@ -10,7 +10,6 @@ function synthPress(){
     let soundOBject = new Audio("sounds/"+this.id+".mp3");
     soundOBject.loop = true;
     soundOBject.play();
-
     keys.forEach((note) => {
         note.addEventListener("mouseup", () => {
             soundOBject.pause();
@@ -25,14 +24,11 @@ document.body.addEventListener("keydown", (e) => {
     let note = sounds[foundya];
     let activeTo = document.getElementById(note);
     activeTo.classList.add("active");
-    console.log("wtf "+foundya);
         let keySound = new Audio("sounds/"+note+".mp3");
         keySound.loop = true;
         keySound.play();
         document.body.addEventListener("keyup", () => {
             keySound.pause();
             activeTo.classList.remove("active");
-        });
-    console.log("I pressed the key "+foundya);
-    
+        });    
 });
