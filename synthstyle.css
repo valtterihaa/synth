@@ -31,10 +31,6 @@ footer {
     align-items: center;
 }
 
-header h1 {
-    /* padding-top: 2em; */
-}
-
 main {
     display: flex;
     align-items: center;
