@@ -17,6 +17,7 @@ document.body.addEventListener("keydown", e => {
     highLightElement.classList.add("active")
     console.log(e.key.toUpperCase())
     audioElement.play()
+    audioElement.loop = true
     document.body.addEventListener("keyup", e => {
         if (e.repeat) return
         if (!keyBoardKeys.includes(e.key)) return
